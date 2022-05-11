@@ -14,14 +14,10 @@ public class ScoreController {
     @Autowired
     private ScoreService service;
 
-    @PutMapping(value="/{id}")
+    @PutMapping
     public MovieDTO saveScore(@RequestBody ScoreDTO dto) {
         MovieDTO movieDTO = service.saveScore(dto);
         return movieDTO;
     }
 
-    //@GetMapping
-    //public Page<MovieDTO> findAll(Pageable pageable) {
-      //  return service.findAll(pageable);
-    //}
 }
