@@ -24,10 +24,10 @@ public class MovieService {
         return dto;
     }
 
-    //@Transactional(readOnly = true)
-    //public Page<MovieDTO> findAll(Pageable pageable) {
-      //  Page<Movie> result = repository.findAll(pageable);
-        //Page<MovieDTO> page = result.map(x -> new MovieDTO(x));
-        //return page;
-    //}
+    @Transactional(readOnly = true)
+    public Page<MovieDTO> findAll(Pageable pageable) {
+        Page<Movie> result = repository.findAll(pageable);
+        Page<MovieDTO> page = result.map(x -> new MovieDTO(x));
+        return page;
+    }
 }
