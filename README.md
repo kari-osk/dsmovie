@@ -3,7 +3,7 @@
 
 <p>Objetivo: Criar uma aplicação para avaliação de filmes.</p> 
 <ul>
- <h5>As tecnologias utilizadas foram:</h5>
+ <h5>Tecnologias utilizadas foram:</h5>
   <li>Frontend: React / Typescript;</li>
   <li>Backend: Java / Spring boot;</li>
   <li>Banco de dados: PostgreSQL;</li>
