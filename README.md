@@ -1,5 +1,5 @@
-# dsmovie
-<h1>Semana Spring React</h1>
+# DSMovie
+<h1>Semana Spring React / DevSuperior</h1>
 
 <p>Objetivo: Criar uma aplicação para avaliação de filmes.</p> 
 <ul>
