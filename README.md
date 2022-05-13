@@ -1,12 +1,14 @@
 # dsmovie
-Semana Spring React
-Aplicação para avaliação de filmes. 
+<h1>Semana Spring React</h1>
 
-As tecnologias utilizadas foram:
-Frontend: React / Typescript
-Backend: Java / Spring boot
-Banco de dados: PostgreSQL
-Deploy do frontend: Netlify
-Deploy do backend: Heroku
+<p>Objetivo: Criar uma aplicação para avaliação de filmes.</p> 
+<ul>
+ <h5>As tecnologias utilizadas foram:</h5>
+  <li>Frontend: React / Typescript;</li>
+  <li>Backend: Java / Spring boot;</li>
+  <li>Banco de dados: PostgreSQL;</li>
+  <li>Deploy do frontend: Netlify;</li>
+  <li>Deploy do backend: Heroku.</li>
+</ul>
 
-Confiram a aplicação no link: https://kdsmovie.netlify.app/
+<p>Confira a aplicação <a href="https://kdsmovie.netlify.app/" target="_blank">aqui</p>
